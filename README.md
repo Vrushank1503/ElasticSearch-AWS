@@ -21,10 +21,10 @@ I wrote a python script that runs in docker to consume data from the Socrata Ope
         - Top 20 states with the highest average fine amount and their average reduction amount
         - The average fine amount, payment amount and interest amount by year
 
-# TechUsed
+## TechUsed
 Docker, Elasticsearch, Kibana, Python, Terminal
 
-# Usage
+## Usage
 Step 1: Build the docker image
 
 ```console
@@ -37,14 +37,14 @@ Step 2: Run the docker container
 > docker run -v ${PWD}:/app -e DATASET_ID=“XXX” -e APP_TOKEN=“XXX” -e ES_HOST=“XXX” -e ES_USERNAME=“XXX” -e ES_PASSWORD=“XXX” bigdata1:1.0 --page_size=1000 --num_pages=1000 
 ```
 
-# Elasticsearch Dashboard Screenshots
+## Elasticsearch Dashboard Screenshots
 **![cluster_iamge](assets/kibanadashboard.png)**
 
-# Screenshot of 63.9 million rows generated which shows the max records I was able to achieve at one point in time.
+## Screenshot of 63.9 million rows generated which shows the max records I was able to achieve at one point in time.
 
 <img src="assets/records.png" width="650">
 
-# Analysis of average fine amount by state.
+## Analysis of average fine amount by state.
 
 <img src="assets/stackedbarchart1.png" width="650">
 
@@ -59,3 +59,5 @@ Step 2: Run the docker container
 # Analyis of proportion of payment amount by states on Piechart
 .
 <img src="assets/proportion_fine_amounts_state.png" width="650">
+
+
