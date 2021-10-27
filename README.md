@@ -48,15 +48,15 @@ Step 2: Run the docker container
 
 <img src="assets/stackedbarchart1.png" width="650">
 
-# Analysis of avergae interest amount by state.
+## Analysis of avergae interest amount by state.
 
 <img src="assets/stackedbarchart.png" width="650">
 
-# Analysis of correlation between payment amout and states based on Heatmap.
+## Analysis of correlation between payment amout and states based on Heatmap.
 
 <img src="assets/heatmap_payment_amount_state.png" width="650">
 
-# Analyis of proportion of payment amount by states on Piechart
+### Analyis of proportion of payment amount by states on Piechart
 .
 <img src="assets/proportion_fine_amounts_state.png" width="650">
 
