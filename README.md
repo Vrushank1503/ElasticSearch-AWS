@@ -37,13 +37,6 @@ Step 2: Run the docker container
 > docker run -v ${PWD}:/app -e DATASET_ID=“XXX” -e APP_TOKEN=“XXX” -e ES_HOST=“XXX” -e ES_USERNAME=“XXX” -e ES_PASSWORD=“XXX” bigdata1:1.0 --page_size=1000 --num_pages=1000 
 ```
 
-with: 
- DATASET_ID: "nc67-uf89" is the ID for this dataset, retrieved from Socrata API link above 
- APP_TOKEN: get this from NYC Open Data (https://data.cityofnewyork.us/profile/edit/developer_settings)
- ES_HOST: get the endpoint link when you create an Elastic Search domain 
- ES_USERNAME: your Elastic Search username
- ES_PASSWORD: your Elastic Search password
-
 # Elasticsearch Dashboard Screenshots
 **![cluster_iamge](assets/kibanadashboard.png)**
 
@@ -66,6 +59,3 @@ with:
 # Analyis of proportion of payment amount by states on Piechart
 .
 <img src="assets/proportion_fine_amounts_state.png" width="650">
-
-
-
